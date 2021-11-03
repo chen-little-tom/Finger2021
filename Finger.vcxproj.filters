@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="temp">
+      <UniqueIdentifier>{31045437-009a-478a-b1eb-9a263de6b465}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database">
+      <UniqueIdentifier>{2f5ff2ee-a8e7-4cce-b0d3-33e3c3e06c49}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Finger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FingerDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CZKFPEngX.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Finger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FingerDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CZKFPEngX.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Finger.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Finger.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Database\2.mdl" />
+    <None Include="Database\1.mdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Finger.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="C:\Users\12719\Pictures\Camera Roll\bmp2.png">
+      <Filter>temp</Filter>
+    </Image>
+    <Image Include="C:\Users\12719\Pictures\Camera Roll\bmp1.png">
+      <Filter>temp</Filter>
+    </Image>
+    <Image Include="C:\Users\12719\Desktop\STEP1_Source.bmp">
+      <Filter>temp</Filter>
+    </Image>
+    <Image Include="Database\2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Database\1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="C:\Users\12719\Desktop\txt.txt">
+      <Filter>temp</Filter>
+    </Text>
+    <Text Include="C:\Users\12719\Desktop\STEP1_Source.txt">
+      <Filter>temp</Filter>
+    </Text>
+    <Text Include="Database\index.txt" />
+    <Text Include="databases\index.txt" />
+  </ItemGroup>
+</Project>
